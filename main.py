@@ -19,7 +19,7 @@ def download_image(download_path, url, file_name):
     file_path = download_path+file_name
     with open(file_path, "wb") as f:
         image.save(f, "JPEG")
-    print("success")
+    print("it worked")
 
 
 download_image("", image_url, "test.jpg")
