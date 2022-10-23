@@ -5,7 +5,7 @@ import requests
 import io
 from PIL import Image
 
-PATH = "E:\\autoposter insta\\chromedriver.exe"
+PATH = "E:\\projects\\autoposter instagram\\chromedriver.exe"
 
 wd = webdriver.Chrome(PATH)
 
